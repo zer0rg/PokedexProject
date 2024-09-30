@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: #1E201E;
+    z-index: 20;
+}
+
+header > img{
+    width: 360px;
+}
+
+.find-input{
+    background-color: white;
+    display: flex;
+    padding: 4px;
+    width: 80%;
+    max-width: 700px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.find-input > input{
+    width: 90%;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.find-input > i{
+    padding: 0px 5px;
+}
+

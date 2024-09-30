@@ -1,0 +1,11 @@
+<div (click)="clickeado.emit(id)" class="pokemon-card">
+    <div class="pokemon-image">
+        <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{id}}.png' alt="" srcset="">
+    </div>
+    <div class="pokemon-info">
+        <div class="top-info">
+            <p>Nº {{id}}</p>
+            <h2>{{(pokemon?.name ?? '') | capitalize}}</h2>
+        </div>
+      
+    </div>

@@ -1,0 +1,98 @@
+.info-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80ff523f-ff84-457d-a547-464588d3a3d3/denyxek-e3205bd3-ce6c-4134-bf04-445592a06071.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgwZmY1MjNmLWZmODQtNDU3ZC1hNTQ3LTQ2NDU4OGQzYTNkM1wvZGVueXhlay1lMzIwNWJkMy1jZTZjLTQxMzQtYmYwNC00NDU1OTJhMDYwNzEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XcdkrCNQAHJSc-_k556-MhGAZX_Qos3_ir9hRAVTnNg');
+    background-size: cover;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 15px;
+    border: 15px solid #1E201E;
+    border-radius: 15px;
+
+}
+
+.info-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-top>img{
+    width: 250px;
+}
+
+.info-mid{
+    display: row;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 300px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.moves{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.moves > span{
+    background-color: #1E201E;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 5px;
+
+}
+.info-mid> span{
+    background-color: #1E201E;
+    color: white;
+    padding: 4px 10px;
+    margin-right: 3px;
+}
+
+
+.info-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tipo{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1E201E;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.wh-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wh-info > p{
+    font-size: 18px;
+    font-weight: bold;
+}
+

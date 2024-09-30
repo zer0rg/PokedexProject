@@ -1,0 +1,38 @@
+<!--
+
+<img src="{{pokemon?.sprites?.back_default}}" alt="" srcset="">
+<p>ID: {{pokemon?.id}}</p>
+<p>Nombre: {{pokemon?.species?.name}}</p>
+<p>Altura: {{pokemon?.height}}</p>
+<p>Peso: {{pokemon?.weight}}</p>
+<p>Tipo : <span *ngFor="let tipo of pokemon?.types">{{tipo.type.name}}</span></p>
+
+-->
+
+<div class="info-padre">
+    <div class="info-top">
+        <img src="{{pokemon?.sprites?.front_default}}" alt="" srcset="">
+        <h1>{{(pokemon?.species?.name ?? '') | capitalize}}</h1>
+        <p>Nº {{pokemon?.id}}</p>
+    </div>
+    <div class="info-down">
+        <div class="wh-info">
+            <p>Altura: {{pokemon?.height}} m</p>
+            <p>Peso: {{pokemon?.weight}} kg</p>
+        </div>
+  
+        <div class="tipos"><span class="tipo" *ngFor="let tipo of pokemon?.types">{{tipo.type.name | capitalize}}</span>
+        </div>
+    </div>
+    <div class="info-mid">
+        <h3 style="text-align: center; font-size: 22px; margin-bottom: 5px;">Movimientos</h3>
+        <div class="moves">
+        <span *ngFor="let movimiento of pokemon?.moves">{{movimiento.move.name}}</span>
+   
+        </div>
+    </div>
+
+   
+</div>
+
+
